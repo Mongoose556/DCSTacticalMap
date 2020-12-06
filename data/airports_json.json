@@ -1,0 +1,81 @@
+{    
+    "bases": [
+       {
+          "name":"Aleppo Intl",
+          "city":"Aleppo",
+          "country":"Syria",
+          "IATA":"ALP",
+          "ICAO":"OSAP",
+          "lat":"36.18069839477539",
+          "lon":"37.22439956665039",
+          "timezone":"2",
+          "side": "red"
+       },
+       {
+          "name":"Damascus Intl",
+          "city":"Damascus",
+          "country":"Syria",
+          "IATA":"DAM",
+          "ICAO":"OSDI",
+          "lat":"33.4114990234375",
+          "lon":"36.51559829711914",
+          "timezone":"2",
+          "side": "red"
+       },
+       {
+          "name":"Deir ez-Zor Air Base",
+          "city":"Deire Zor",
+          "country":"Syria",
+          "IATA":"DEZ",
+          "ICAO":"OSDZ",
+          "lat":"35.2854",
+          "lon":"40.175999",
+          "timezone":"2",
+          "side": "red"
+       },
+       {
+          "name":"Bassel Al-Assad Intl",
+          "city":"Latakia",
+          "country":"Syria",
+          "IATA":"LTK",
+          "ICAO":"OSLK",
+          "lat":"35.401100158691406",
+          "lon":"35.948699951171875",
+          "timezone":"2",
+          "side": "red"
+       },
+       {
+          "name":"Palmyra",
+          "city":"Palmyra",
+          "country":"Syria",
+          "IATA":"PMS",
+          "ICAO":"OSPR",
+          "lat":"34.5574",
+          "lon":"38.316898",
+          "timezone":"2",
+          "side": "red"
+       },
+
+       {
+        "name":"Hama",
+        "city":"Hama",
+        "country":"Syria",
+        "IATA":"OS58",
+        "ICAO":"N/A",
+        "lat":"35.118156",
+        "lon":"36.711186",
+        "timezone":"2",
+        "side": "red"
+     },
+     {
+        "name":"Incirlik",
+        "city":"Adana",
+        "country":"Turkey",
+        "IATA":"N/A",
+        "ICAO":"N/A",
+        "lat":"37.001944",
+        "lon":"35.425833",
+        "timezone":"2",
+        "side": "blue"
+     } ]
+}

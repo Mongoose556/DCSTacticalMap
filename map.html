@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f0537c26868848c9a7c851714c9305a8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_f0537c26868848c9a7c851714c9305a8" ></div>
+        
+</body>
+<script>    
+    
+            var map_f0537c26868848c9a7c851714c9305a8 = L.map(
+                "map_f0537c26868848c9a7c851714c9305a8",
+                {
+                    center: [45.0463, 38.8],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9e357192e954e58842813ee6520783f = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_f0537c26868848c9a7c851714c9305a8);
+        
+    
+            var marker_7a3fa01cfe5942b1bafe4c6259b5fc42 = L.marker(
+                [44.9599, 37.9918],
+                {}
+            ).addTo(map_f0537c26868848c9a7c851714c9305a8);
+        
+    
+            var icon_b8031c52bdf3496d87a7099771e60f63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a3fa01cfe5942b1bafe4c6259b5fc42.setIcon(icon_b8031c52bdf3496d87a7099771e60f63);
+        
+    
+        var popup_2c6b538418514d0590695f879e37af0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e5e70d5599e42668258ed4167b69e02 = $(`<div id="html_9e5e70d5599e42668258ed4167b69e02" style="width: 100.0%; height: 100.0%;"><i>Krymsk</i></div>`)[0];
+            popup_2c6b538418514d0590695f879e37af0a.setContent(html_9e5e70d5599e42668258ed4167b69e02);
+        
+
+        marker_7a3fa01cfe5942b1bafe4c6259b5fc42.bindPopup(popup_2c6b538418514d0590695f879e37af0a)
+        ;
+
+        
+    
+    
+            marker_7a3fa01cfe5942b1bafe4c6259b5fc42.bindTooltip(
+                `<div>
+                     Krymsk
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a31b74c286ea4cfc94dd1ae8683b956a = L.marker(
+                [45.0335, 39.1393],
+                {}
+            ).addTo(map_f0537c26868848c9a7c851714c9305a8);
+        
+    
+            var icon_173e96745f5e430391615b12129e0c0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a31b74c286ea4cfc94dd1ae8683b956a.setIcon(icon_173e96745f5e430391615b12129e0c0b);
+        
+    
+        var popup_3555fea15aa0400990635a95734aab7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74ec7181d0844f29a6841aaffa5576c2 = $(`<div id="html_74ec7181d0844f29a6841aaffa5576c2" style="width: 100.0%; height: 100.0%;"><i>Krasnodar</i></div>`)[0];
+            popup_3555fea15aa0400990635a95734aab7b.setContent(html_74ec7181d0844f29a6841aaffa5576c2);
+        
+
+        marker_a31b74c286ea4cfc94dd1ae8683b956a.bindPopup(popup_3555fea15aa0400990635a95734aab7b)
+        ;
+
+        
+    
+    
+            marker_a31b74c286ea4cfc94dd1ae8683b956a.bindTooltip(
+                `<div>
+                     Krasnodar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49962f34f49742c7a0a40d092ebe602d = L.marker(
+                [45.003, 37.3408],
+                {}
+            ).addTo(map_f0537c26868848c9a7c851714c9305a8);
+        
+    
+            var icon_669c06bddcdd4ad69ce04d325b6049d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_49962f34f49742c7a0a40d092ebe602d.setIcon(icon_669c06bddcdd4ad69ce04d325b6049d4);
+        
+    
+        var popup_8d9eb4b62da34d4f82881cb44e793167 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d984b55fdbf43c2a44ecb5bc006e10b = $(`<div id="html_4d984b55fdbf43c2a44ecb5bc006e10b" style="width: 100.0%; height: 100.0%;"><i>Anapa</i></div>`)[0];
+            popup_8d9eb4b62da34d4f82881cb44e793167.setContent(html_4d984b55fdbf43c2a44ecb5bc006e10b);
+        
+
+        marker_49962f34f49742c7a0a40d092ebe602d.bindPopup(popup_8d9eb4b62da34d4f82881cb44e793167)
+        ;
+
+        
+    
+    
+            marker_49962f34f49742c7a0a40d092ebe602d.bindTooltip(
+                `<div>
+                     Anapa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_475064a6287e4d5bb08c29c295395643 = L.marker(
+                [44.5938, 38.0251],
+                {}
+            ).addTo(map_f0537c26868848c9a7c851714c9305a8);
+        
+    
+            var icon_e6a12b5738594cceb39d3dab405cb56b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_475064a6287e4d5bb08c29c295395643.setIcon(icon_e6a12b5738594cceb39d3dab405cb56b);
+        
+    
+        var popup_7f26d474aa5345058ab0a21a6c1aadbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8668dff0266643cfaa9e636775b869f6 = $(`<div id="html_8668dff0266643cfaa9e636775b869f6" style="width: 100.0%; height: 100.0%;"><i>Gelendzhik</i></div>`)[0];
+            popup_7f26d474aa5345058ab0a21a6c1aadbe.setContent(html_8668dff0266643cfaa9e636775b869f6);
+        
+
+        marker_475064a6287e4d5bb08c29c295395643.bindPopup(popup_7f26d474aa5345058ab0a21a6c1aadbe)
+        ;
+
+        
+    
+    
+            marker_475064a6287e4d5bb08c29c295395643.bindTooltip(
+                `<div>
+                     Gelendzhik
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>

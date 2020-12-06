@@ -1,0 +1,120 @@
+https://medium.com/@drevets/how-to-display-html-folium-maps-using-jinja2-templating-with-flask-1d9ffb85dfc3
+
+https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
+
+https://blog.prototypr.io/interactive-maps-with-python-part-1-aa1563dbe5a9
+
+
+fastAPI 
+https://fastapi.tiangolo.com/
+
+
+https://en.wikipedia.org/wiki/List_of_Syrian_Air_Force_bases
+
+GOAL: DCS map
+
+TODO: 
+
+Capture data from tacview or export stream
+parse data
+start small - list all the bases in play for sides, then all the recon targets
+later, add all blue aircraft and BRAA
+
+tacview > SQL > backend > Map
+
+once you have that, you just have to query the data, and plot the responses
+on the map
+
+
+
+
+
+
+
+
+############################################################
+
+data cut from CAUCASUS mapping
+
+    hama = [35.118156, 36.711186]
+    al_qusayr = [34.5690994, 36.5727997]
+    damascus = [33.411522, 36.515558]
+    beirut = [33.821111, 35.488333]
+    bassel_al_assad = [35.400833, 35.948611]
+    haifa = [32.809444, 35.043056]
+    hatay = [36.362778, 36.282222]
+    abu_al_duhur = [35.732778, 37.101667]
+    aleppo = [36.184722, 37.215833]
+    incirlik = [37.001944, 35.425833]
+
+"hama ="[
+   35.118156,
+   36.711186
+]"al_qusayr ="[
+   34.5690994,
+   36.5727997
+]"damascus ="[
+   33.411522,
+   36.515558
+]"beirut ="[
+   33.821111,
+   35.488333
+]"bassel_al_assad ="[
+   35.400833,
+   35.948611
+]"haifa ="[
+   32.809444,
+   35.043056
+]"hatay ="[
+   36.362778,
+   36.282222
+]"abu_al_duhur ="[
+   35.732778,
+   37.101667
+]"aleppo ="[
+   36.184722,
+   37.215833
+]"incirlik ="[
+   37.001944,
+   35.425833
+]
+
+    krymsk = [44.9599, 37.9918, "Krymsk"]
+    krasnodar = [45.0335, 39.1393, "Krasnodar"]
+    anapa = [45.0030, 37.3408, "Anapa"]
+    gelendzhik = [44.5938, 38.0251, "Gelendzhik"]
+
+     {
+        "name":"",
+        "city":"",
+        "country":"",
+        "IATA":"",
+        "ICAO":"",
+        "lat":"",
+        "lon":"",
+        "timezone":"2"
+     }
+#map_centre = [45.0463, 38.8000] #Yelizavetinskaya lat long
+     #folium.Marker(krymsk[0:2], popup=f'<i>{krymsk[2]}</i>', tooltip=tooltip).add_to(m)
+#folium.Marker(krasnodar[0:2], popup=f'<i>{krasnodar[2]}</i>', tooltip=tooltip).add_to(m)
+#folium.Marker(anapa[0:2], popup=f'<i>{anapa[2]}</i>', tooltip=tooltip).add_to(m)
+#folium.Marker(gelendzhik[0:2], popup=f'<i>{gelendzhik[2]}</i>', tooltip=tooltip).add_to(m)
+
+    airports = {
+        "Krymsk" : {
+            "position" : [44.9599, 37.9918],
+            "side" : "blue"
+            },
+            "Krasnodar" : {
+            "position" : [45.0335, 39.1393],
+            "side" : "red"
+            },
+            "Anapa" : {
+            "position" : [45.0030, 37.3408],
+            "side" : "blue"
+            },
+            "Gelendzhik" : {
+            "position": [44.5938, 38.0251],
+            "side": "red"
+        }
+    }
