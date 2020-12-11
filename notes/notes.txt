@@ -4,6 +4,7 @@ https://github.com/tiangolo/uvicorn-gunicorn-fastapi-docker
 
 https://blog.prototypr.io/interactive-maps-with-python-part-1-aa1563dbe5a9
 
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04#step-1-%E2%80%94-installing-postgresql
 
 fastAPI 
 https://fastapi.tiangolo.com/

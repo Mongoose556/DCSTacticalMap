@@ -11,7 +11,7 @@ from fastapi import FastAPI     # server
 import json                 # Jason Vorhees
 import logging              # Canadians
 from pathlib import Path    # 
-
+import tacview_client
 from typing import Optional
 
 app = FastAPI()
@@ -37,11 +37,7 @@ def create_map():
     return m
 
 
+
 @app.get("/")
 async def read_root():
     return {"Hello": "World"}
-
-
-@app.get("/items/{item_id}")
-async def read_item(item_id: int, q: Optional[str] = None):
-    return {"item_id": item_id, "q": q}
